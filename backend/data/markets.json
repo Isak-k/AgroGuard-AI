@@ -1,0 +1,208 @@
+[
+  {
+    "id": "mkwp3obr37zezw3r10n",
+    "name": "Robe Agricultural Center",
+    "location": "Robe Town",
+    "region": "Oromia",
+    "chemicals": [
+      {
+        "chemicalId": "chem-1",
+        "chemicalName": "Ridomil Gold MZ",
+        "price": 850,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      },
+      {
+        "chemicalId": "chem-2",
+        "chemicalName": "Copper Oxychloride",
+        "price": 320,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      }
+    ]
+  },
+  {
+    "id": "mkwp3obsymwr09obylm",
+    "name": "Goba Farmers Market",
+    "location": "Goba Town",
+    "region": "Oromia",
+    "chemicals": [
+      {
+        "chemicalId": "chem-2",
+        "chemicalName": "Copper Oxychloride",
+        "price": 310,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      },
+      {
+        "chemicalId": "chem-3",
+        "chemicalName": "Dimethoate",
+        "price": 450,
+        "available": false,
+        "lastUpdated": "2024-01-25"
+      }
+    ]
+  },
+  {
+    "id": "mkwp3obtduwx6g789hc",
+    "name": "Sinana AgriSupply",
+    "location": "Sinana",
+    "region": "Oromia",
+    "chemicals": [
+      {
+        "chemicalId": "chem-1",
+        "chemicalName": "Ridomil Gold MZ",
+        "price": 900,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      },
+      {
+        "chemicalId": "chem-3",
+        "chemicalName": "Dimethoate",
+        "price": 480,
+        "available": true,
+        "lastUpdated": "2024-01-26"
+      }
+    ]
+  },
+  {
+    "id": "mkwp3obtduwx6g789hd",
+    "name": "Ginir Crop Center",
+    "location": "Ginir",
+    "region": "Oromia",
+    "chemicals": [
+      {
+        "chemicalId": "chem-1",
+        "chemicalName": "Ridomil Gold MZ",
+        "price": 860,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      },
+      {
+        "chemicalId": "chem-2",
+        "chemicalName": "Copper Oxychloride",
+        "price": 330,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      }
+    ]
+  },
+  {
+    "id": "mkwp3obtduwx6g789he",
+    "name": "Agarfa Agricultural Supply",
+    "location": "Agarfa",
+    "region": "Oromia",
+    "chemicals": [
+      {
+        "chemicalId": "chem-2",
+        "chemicalName": "Copper Oxychloride",
+        "price": 315,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      },
+      {
+        "chemicalId": "chem-3",
+        "chemicalName": "Dimethoate",
+        "price": 470,
+        "available": true,
+        "lastUpdated": "2024-01-26"
+      }
+    ]
+  },
+  {
+    "id": "mkwz3i6ig0yaxpppkaj",
+    "name": "Robe Agricultural Center",
+    "location": "Robe Town",
+    "region": "Oromia",
+    "chemicals": [
+      {
+        "chemicalId": "mkwz3i6bbcu7zyjem69",
+        "chemicalName": "Ridomil Gold MZ",
+        "price": 850,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      },
+      {
+        "chemicalId": "mkwz3i6cb4d0b0sllvl",
+        "chemicalName": "Copper Oxychloride",
+        "price": 320,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      }
+    ],
+    "createdAt": "2026-01-27T19:12:04.554Z",
+    "updatedAt": "2026-01-27T19:12:04.554Z"
+  },
+  {
+    "id": "mkwz3i6kwtr4qsyzdx",
+    "name": "Goba Farmers Market",
+    "location": "Goba Town",
+    "region": "Oromia",
+    "chemicals": [
+      {
+        "chemicalId": "mkwz3i6cb4d0b0sllvl",
+        "chemicalName": "Copper Oxychloride",
+        "price": 310,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      },
+      {
+        "chemicalId": "mkwz3i6d2sfa03b3p6h",
+        "chemicalName": "Dimethoate",
+        "price": 450,
+        "available": false,
+        "lastUpdated": "2024-01-25"
+      }
+    ],
+    "createdAt": "2026-01-27T19:12:04.556Z",
+    "updatedAt": "2026-01-27T19:12:04.556Z"
+  },
+  {
+    "id": "mkwz3i6nk73y96njbcn",
+    "name": "Sinana AgriSupply",
+    "location": "Sinana",
+    "region": "Oromia",
+    "chemicals": [
+      {
+        "chemicalId": "mkwz3i6bbcu7zyjem69",
+        "chemicalName": "Ridomil Gold MZ",
+        "price": 900,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      },
+      {
+        "chemicalId": "mkwz3i6d2sfa03b3p6h",
+        "chemicalName": "Dimethoate",
+        "price": 480,
+        "available": true,
+        "lastUpdated": "2024-01-26"
+      }
+    ],
+    "createdAt": "2026-01-27T19:12:04.559Z",
+    "updatedAt": "2026-01-27T19:12:04.559Z"
+  },
+  {
+    "id": "mkwz3i6oghjct153sx",
+    "name": "Ginir Crop Center",
+    "location": "Ginir",
+    "region": "Oromia",
+    "chemicals": [
+      {
+        "chemicalId": "mkwz3i6bbcu7zyjem69",
+        "chemicalName": "Ridomil Gold MZ",
+        "price": 860,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      },
+      {
+        "chemicalId": "mkwz3i6cb4d0b0sllvl",
+        "chemicalName": "Copper Oxychloride",
+        "price": 330,
+        "available": true,
+        "lastUpdated": "2024-01-27"
+      }
+    ],
+    "createdAt": "2026-01-27T19:12:04.560Z",
+    "updatedAt": "2026-01-27T19:12:04.560Z"
+  }
+]

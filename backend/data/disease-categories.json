@@ -1,0 +1,274 @@
+[
+  {
+    "id": "mkwp3obbebs1p5w51m",
+    "name": {
+      "en": "Fungal Diseases",
+      "om": "Dhukkuboota Bosona",
+      "am": "የፈንገስ በሽታዎች"
+    },
+    "description": {
+      "en": "Diseases caused by fungal pathogens that affect plant tissues",
+      "om": "Dhukkuboota bosona sababa taasisan kanneen qaamolee biqiltuu miidhan",
+      "am": "በፈንገስ አምራቾች የሚከሰቱ እና የእፅዋት ሕብረ ሰውነትን የሚጎዱ በሽታዎች"
+    },
+    "color": "#8B5CF6",
+    "icon": "Microscope",
+    "createdAt": "2026-01-27T14:32:16.343Z",
+    "updatedAt": "2026-01-27T14:32:16.344Z"
+  },
+  {
+    "id": "mkwp3obey6tmupiewui",
+    "name": {
+      "en": "Bacterial Diseases",
+      "om": "Dhukkuboota Baakteeriyaa",
+      "am": "የባክቴሪያ በሽታዎች"
+    },
+    "description": {
+      "en": "Diseases caused by bacterial infections in plants",
+      "om": "Dhukkuboota baakteeriyaan biqiltoota keessatti uumaman",
+      "am": "በእፅዋት ውስጥ በባክቴሪያ ኢንፌክሽን የሚከሰቱ በሽታዎች"
+    },
+    "color": "#EF4444",
+    "icon": "Bug",
+    "createdAt": "2026-01-27T14:32:16.346Z",
+    "updatedAt": "2026-01-27T14:32:16.346Z"
+  },
+  {
+    "id": "mkwp3obigcvdjpac0r",
+    "name": {
+      "en": "Viral Diseases",
+      "om": "Dhukkuboota Vaayirasii",
+      "am": "የቫይረስ በሽታዎች"
+    },
+    "description": {
+      "en": "Plant diseases caused by viral infections",
+      "om": "Dhukkuboota biqiltootaa vaayirasiin uumaman",
+      "am": "በቫይረስ ኢንፌክሽን የሚከሰቱ የእፅዋት በሽታዎች"
+    },
+    "color": "#F59E0B",
+    "icon": "Zap",
+    "createdAt": "2026-01-27T14:32:16.350Z",
+    "updatedAt": "2026-01-27T14:32:16.350Z"
+  },
+  {
+    "id": "mkwp3objar4nmx0jwf",
+    "name": {
+      "en": "Nutritional Disorders",
+      "om": "Rakkoolee Soorataa",
+      "am": "የአመጋገብ መዛባቶች"
+    },
+    "description": {
+      "en": "Plant health issues caused by nutrient deficiencies or excesses",
+      "om": "Dhimmoota fayyaa biqiltootaa hanqina ykn garmalee soorataan uumaman",
+      "am": "በንጥረ ነገር እጥረት ወይም ከመጠን በላይ መኖር የሚከሰቱ የእፅዋት ጤንነት ችግሮች"
+    },
+    "color": "#10B981",
+    "icon": "Leaf",
+    "createdAt": "2026-01-27T14:32:16.351Z",
+    "updatedAt": "2026-01-27T14:32:16.351Z"
+  },
+  {
+    "id": "mkwpy2377t7fdmx8kna",
+    "name": {
+      "en": "Fungal Diseases",
+      "om": "Dhukkuboota Bosona",
+      "am": "የፈንገስ በሽታዎች"
+    },
+    "description": {
+      "en": "Diseases caused by fungal pathogens that affect plant tissues",
+      "om": "Dhukkuboota bosona sababa taasisan kanneen qaamolee biqiltuu miidhan",
+      "am": "በፈንገስ አምራቾች የሚከሰቱ እና የእፅዋት ሕብረ ሰውነትን የሚጎዱ በሽታዎች"
+    },
+    "color": "#8B5CF6",
+    "icon": "Microscope",
+    "createdAt": "2026-01-27T14:55:53.875Z",
+    "updatedAt": "2026-01-27T14:55:53.876Z"
+  },
+  {
+    "id": "mkwpy23doq2ratjwnei",
+    "name": {
+      "en": "Bacterial Diseases",
+      "om": "Dhukkuboota Baakteeriyaa",
+      "am": "የባክቴሪያ በሽታዎች"
+    },
+    "description": {
+      "en": "Diseases caused by bacterial infections in plants",
+      "om": "Dhukkuboota baakteeriyaan biqiltoota keessatti uumaman",
+      "am": "በእፅዋት ውስጥ በባክቴሪያ ኢንፌክሽን የሚከሰቱ በሽታዎች"
+    },
+    "color": "#EF4444",
+    "icon": "Bug",
+    "createdAt": "2026-01-27T14:55:53.881Z",
+    "updatedAt": "2026-01-27T14:55:53.881Z"
+  },
+  {
+    "id": "mkwpy23f0i8pzj38qdxr",
+    "name": {
+      "en": "Viral Diseases",
+      "om": "Dhukkuboota Vaayirasii",
+      "am": "የቫይረስ በሽታዎች"
+    },
+    "description": {
+      "en": "Plant diseases caused by viral infections",
+      "om": "Dhukkuboota biqiltootaa vaayirasiin uumaman",
+      "am": "በቫይረስ ኢንፌክሽን የሚከሰቱ የእፅዋት በሽታዎች"
+    },
+    "color": "#F59E0B",
+    "icon": "Zap",
+    "createdAt": "2026-01-27T14:55:53.883Z",
+    "updatedAt": "2026-01-27T14:55:53.883Z"
+  },
+  {
+    "id": "mkwpy23hsvghoiwqqo",
+    "name": {
+      "en": "Nutritional Disorders",
+      "om": "Rakkoolee Soorataa",
+      "am": "የአመጋገብ መዛባቶች"
+    },
+    "description": {
+      "en": "Plant health issues caused by nutrient deficiencies or excesses",
+      "om": "Dhimmoota fayyaa biqiltootaa hanqina ykn garmalee soorataan uumaman",
+      "am": "በንጥረ ነገር እጥረት ወይም ከመጠን በላይ መኖር የሚከሰቱ የእፅዋት ጤንነት ችግሮች"
+    },
+    "color": "#10B981",
+    "icon": "Leaf",
+    "createdAt": "2026-01-27T14:55:53.885Z",
+    "updatedAt": "2026-01-27T14:55:53.885Z"
+  },
+  {
+    "id": "mkwurzr9kh0ph8n4gon",
+    "name": {
+      "en": "Fungal Diseases",
+      "om": "Dhukkuboota Bosona",
+      "am": "የፈንገስ በሽታዎች"
+    },
+    "description": {
+      "en": "Diseases caused by fungal pathogens that affect plant tissues",
+      "om": "Dhukkuboota bosona sababa taasisan kanneen qaamolee biqiltuu miidhan",
+      "am": "በፈንገስ አምራቾች የሚከሰቱ እና የእፅዋት ሕብረ ሰውነትን የሚጎዱ በሽታዎች"
+    },
+    "color": "#8B5CF6",
+    "icon": "Microscope",
+    "createdAt": "2026-01-27T17:11:08.997Z",
+    "updatedAt": "2026-01-27T17:11:08.999Z"
+  },
+  {
+    "id": "mkwurzri3hu2lsaaua",
+    "name": {
+      "en": "Bacterial Diseases",
+      "om": "Dhukkuboota Baakteeriyaa",
+      "am": "የባክቴሪያ በሽታዎች"
+    },
+    "description": {
+      "en": "Diseases caused by bacterial infections in plants",
+      "om": "Dhukkuboota baakteeriyaan biqiltoota keessatti uumaman",
+      "am": "በእፅዋት ውስጥ በባክቴሪያ ኢንፌክሽን የሚከሰቱ በሽታዎች"
+    },
+    "color": "#EF4444",
+    "icon": "Bug",
+    "createdAt": "2026-01-27T17:11:09.006Z",
+    "updatedAt": "2026-01-27T17:11:09.006Z"
+  },
+  {
+    "id": "mkwurzrqlvnhjr1y11l",
+    "name": {
+      "en": "Viral Diseases",
+      "om": "Dhukkuboota Vaayirasii",
+      "am": "የቫይረስ በሽታዎች"
+    },
+    "description": {
+      "en": "Plant diseases caused by viral infections",
+      "om": "Dhukkuboota biqiltootaa vaayirasiin uumaman",
+      "am": "በቫይረስ ኢንፌክሽን የሚከሰቱ የእፅዋት በሽታዎች"
+    },
+    "color": "#F59E0B",
+    "icon": "Zap",
+    "createdAt": "2026-01-27T17:11:09.014Z",
+    "updatedAt": "2026-01-27T17:11:09.014Z"
+  },
+  {
+    "id": "mkwurzrvcbajqnepxpu",
+    "name": {
+      "en": "Nutritional Disorders",
+      "om": "Rakkoolee Soorataa",
+      "am": "የአመጋገብ መዛባቶች"
+    },
+    "description": {
+      "en": "Plant health issues caused by nutrient deficiencies or excesses",
+      "om": "Dhimmoota fayyaa biqiltootaa hanqina ykn garmalee soorataan uumaman",
+      "am": "በንጥረ ነገር እጥረት ወይም ከመጠን በላይ መኖር የሚከሰቱ የእፅዋት ጤንነት ችግሮች"
+    },
+    "color": "#10B981",
+    "icon": "Leaf",
+    "createdAt": "2026-01-27T17:11:09.019Z",
+    "updatedAt": "2026-01-27T17:11:09.019Z"
+  },
+  {
+    "id": "mkwz3i63b5pcnbezi4q",
+    "name": {
+      "en": "Fungal Diseases",
+      "om": "Dhukkuboota Bosona",
+      "am": "የፈንገስ በሽታዎች"
+    },
+    "description": {
+      "en": "Diseases caused by fungal pathogens that affect plant tissues",
+      "om": "Dhukkuboota bosona sababa taasisan kanneen qaamolee biqiltuu miidhan",
+      "am": "በፈንገስ አምራቾች የሚከሰቱ እና የእፅዋት ሕብረ ሰውነትን የሚጎዱ በሽታዎች"
+    },
+    "color": "#8B5CF6",
+    "icon": "Microscope",
+    "createdAt": "2026-01-27T19:12:04.539Z",
+    "updatedAt": "2026-01-27T19:12:04.539Z"
+  },
+  {
+    "id": "mkwz3i65k0k833nfb5q",
+    "name": {
+      "en": "Bacterial Diseases",
+      "om": "Dhukkuboota Baakteeriyaa",
+      "am": "የባክቴሪያ በሽታዎች"
+    },
+    "description": {
+      "en": "Diseases caused by bacterial infections in plants",
+      "om": "Dhukkuboota baakteeriyaan biqiltoota keessatti uumaman",
+      "am": "በእፅዋት ውስጥ በባክቴሪያ ኢንፌክሽን የሚከሰቱ በሽታዎች"
+    },
+    "color": "#EF4444",
+    "icon": "Bug",
+    "createdAt": "2026-01-27T19:12:04.541Z",
+    "updatedAt": "2026-01-27T19:12:04.541Z"
+  },
+  {
+    "id": "mkwz3i67t3z52few21",
+    "name": {
+      "en": "Viral Diseases",
+      "om": "Dhukkuboota Vaayirasii",
+      "am": "የቫይረስ በሽታዎች"
+    },
+    "description": {
+      "en": "Plant diseases caused by viral infections",
+      "om": "Dhukkuboota biqiltootaa vaayirasiin uumaman",
+      "am": "በቫይረስ ኢንፌክሽን የሚከሰቱ የእፅዋት በሽታዎች"
+    },
+    "color": "#F59E0B",
+    "icon": "Zap",
+    "createdAt": "2026-01-27T19:12:04.543Z",
+    "updatedAt": "2026-01-27T19:12:04.543Z"
+  },
+  {
+    "id": "mkwz3i69fw80o6xc1ql",
+    "name": {
+      "en": "Nutritional Disorders",
+      "om": "Rakkoolee Soorataa",
+      "am": "የአመጋገብ መዛባቶች"
+    },
+    "description": {
+      "en": "Plant health issues caused by nutrient deficiencies or excesses",
+      "om": "Dhimmoota fayyaa biqiltootaa hanqina ykn garmalee soorataan uumaman",
+      "am": "በንጥረ ነገር እጥረት ወይም ከመጠን በላይ መኖር የሚከሰቱ የእፅዋት ጤንነት ችግሮች"
+    },
+    "color": "#10B981",
+    "icon": "Leaf",
+    "createdAt": "2026-01-27T19:12:04.545Z",
+    "updatedAt": "2026-01-27T19:12:04.545Z"
+  }
+]

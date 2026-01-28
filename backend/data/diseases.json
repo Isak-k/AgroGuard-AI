@@ -1,0 +1,328 @@
+[
+  {
+    "id": "mkwp3obpeszz7qwzys",
+    "name": {
+      "en": "Late Blight",
+      "om": "Dhukkuba Booda",
+      "am": "የዘገየ በሽታ"
+    },
+    "cropType": "Potato",
+    "categoryId": "mkwp3obbebs1p5w51m",
+    "images": [
+      "https://example.com/late-blight.jpg"
+    ],
+    "symptoms": {
+      "en": [
+        "Dark spots on leaves",
+        "White fuzzy growth on leaf undersides",
+        "Brown lesions on stems"
+      ],
+      "om": [
+        "Bakka gurraacha baala irratti",
+        "Guddina adii baala jalatti",
+        "Madaa magariisa hidda irratti"
+      ],
+      "am": [
+        "በቅጠሎች ላይ ጥቁር ነጠብጣቦች",
+        "በቅጠል ስር ነጭ ፈንገስ",
+        "በግንድ ላይ ቡናማ ቁስሎች"
+      ]
+    },
+    "treatments": [
+      {
+        "chemicalId": "mkwp3obmzfi7so3gtkq",
+        "chemicalName": "Ridomil Gold MZ",
+        "dosage": "2.5 kg/ha",
+        "applicationMethod": "Foliar spray"
+      }
+    ],
+    "createdAt": "2026-01-27T14:32:16.357Z",
+    "updatedAt": "2026-01-27T14:32:16.357Z"
+  },
+  {
+    "id": "mkwp3obq74ieohmk65b",
+    "name": {
+      "en": "Coffee Berry Disease",
+      "om": "Dhukkuba Buna",
+      "am": "የቡና ፍሬ በሽታ"
+    },
+    "cropType": "Coffee",
+    "categoryId": "mkwp3obbebs1p5w51m",
+    "images": [
+      "https://example.com/coffee-berry-disease.jpg"
+    ],
+    "symptoms": {
+      "en": [
+        "Dark sunken spots on berries",
+        "Premature fruit drop",
+        "Reduced yield"
+      ],
+      "om": [
+        "Bakka gurraacha ija buna irratti",
+        "Iji buna dafee bu'uu",
+        "Oomisha hir'achuu"
+      ],
+      "am": [
+        "በቡና ፍሬ ላይ ጥቁር ጉድጓዶች",
+        "ፍሬው ቀደም ብሎ መውደቅ",
+        "ምርት መቀነስ"
+      ]
+    },
+    "treatments": [
+      {
+        "chemicalId": "mkwp3obn10y7jrzbkhlm",
+        "chemicalName": "Copper Oxychloride",
+        "dosage": "3 kg/ha",
+        "applicationMethod": "Foliar spray"
+      }
+    ],
+    "createdAt": "2026-01-27T14:32:16.358Z",
+    "updatedAt": "2026-01-27T14:32:16.358Z"
+  },
+  {
+    "id": "mkwpy23qu6przpieij",
+    "name": {
+      "en": "Late Blight",
+      "om": "Dhukkuba Booda",
+      "am": "የዘገየ በሽታ"
+    },
+    "cropType": "Potato",
+    "categoryId": "mkwpy2377t7fdmx8kna",
+    "featured": true,
+    "images": [
+      "https://example.com/late-blight.jpg"
+    ],
+    "symptoms": {
+      "en": [
+        "Dark spots on leaves",
+        "White fuzzy growth on leaf undersides",
+        "Brown lesions on stems"
+      ],
+      "om": [
+        "Bakka gurraacha baala irratti",
+        "Guddina adii baala jalatti",
+        "Madaa magariisa hidda irratti"
+      ],
+      "am": [
+        "በቅጠሎች ላይ ጥቁር ነጠብጣቦች",
+        "በቅጠል ስር ነጭ ፈንገስ",
+        "በግንድ ላይ ቡናማ ቁስሎች"
+      ]
+    },
+    "treatments": [
+      {
+        "chemicalId": "mkwpy23je9bw30deavl",
+        "chemicalName": "Ridomil Gold MZ",
+        "dosage": "2.5 kg/ha",
+        "applicationMethod": "Foliar spray"
+      }
+    ],
+    "createdAt": "2026-01-27T14:55:53.894Z",
+    "updatedAt": "2026-01-27T14:55:53.894Z"
+  },
+  {
+    "id": "mkwpy23uoar7bicuaqq",
+    "name": {
+      "en": "Coffee Berry Disease",
+      "om": "Dhukkuba Buna",
+      "am": "የቡና ፍሬ በሽታ"
+    },
+    "cropType": "Coffee",
+    "categoryId": "mkwpy2377t7fdmx8kna",
+    "featured": true,
+    "images": [
+      "https://example.com/coffee-berry-disease.jpg"
+    ],
+    "symptoms": {
+      "en": [
+        "Dark sunken spots on berries",
+        "Premature fruit drop",
+        "Reduced yield"
+      ],
+      "om": [
+        "Bakka gurraacha ija buna irratti",
+        "Iji buna dafee bu'uu",
+        "Oomisha hir'achuu"
+      ],
+      "am": [
+        "በቡና ፍሬ ላይ ጥቁር ጉድጓዶች",
+        "ፍሬው ቀደም ብሎ መውደቅ",
+        "ምርት መቀነስ"
+      ]
+    },
+    "treatments": [
+      {
+        "chemicalId": "mkwpy23lgfgmbu8igwb",
+        "chemicalName": "Copper Oxychloride",
+        "dosage": "3 kg/ha",
+        "applicationMethod": "Foliar spray"
+      }
+    ],
+    "createdAt": "2026-01-27T14:55:53.898Z",
+    "updatedAt": "2026-01-27T14:55:53.898Z"
+  },
+  {
+    "id": "mkwurztlz62pd8ku6gm",
+    "name": {
+      "en": "Late Blight",
+      "om": "Dhukkuba Booda",
+      "am": "የዘገየ በሽታ"
+    },
+    "cropType": "Potato",
+    "categoryId": "mkwurzr9kh0ph8n4gon",
+    "featured": true,
+    "images": [
+      "https://example.com/late-blight.jpg"
+    ],
+    "symptoms": {
+      "en": [
+        "Dark spots on leaves",
+        "White fuzzy growth on leaf undersides",
+        "Brown lesions on stems"
+      ],
+      "om": [
+        "Bakka gurraacha baala irratti",
+        "Guddina adii baala jalatti",
+        "Madaa magariisa hidda irratti"
+      ],
+      "am": [
+        "በቅጠሎች ላይ ጥቁር ነጠብጣቦች",
+        "በቅጠል ስር ነጭ ፈንገስ",
+        "በግንድ ላይ ቡናማ ቁስሎች"
+      ]
+    },
+    "treatments": [
+      {
+        "chemicalId": "mkwurzs8pdvmxq0y9r",
+        "chemicalName": "Ridomil Gold MZ",
+        "dosage": "2.5 kg/ha",
+        "applicationMethod": "Foliar spray"
+      }
+    ],
+    "createdAt": "2026-01-27T17:11:09.081Z",
+    "updatedAt": "2026-01-27T17:11:09.082Z"
+  },
+  {
+    "id": "mkwurztq9vvb3zt0nhr",
+    "name": {
+      "en": "Coffee Berry Disease",
+      "om": "Dhukkuba Buna",
+      "am": "የቡና ፍሬ በሽታ"
+    },
+    "cropType": "Coffee",
+    "categoryId": "mkwurzr9kh0ph8n4gon",
+    "featured": true,
+    "images": [
+      "https://example.com/coffee-berry-disease.jpg"
+    ],
+    "symptoms": {
+      "en": [
+        "Dark sunken spots on berries",
+        "Premature fruit drop",
+        "Reduced yield"
+      ],
+      "om": [
+        "Bakka gurraacha ija buna irratti",
+        "Iji buna dafee bu'uu",
+        "Oomisha hir'achuu"
+      ],
+      "am": [
+        "በቡና ፍሬ ላይ ጥቁር ጉድጓዶች",
+        "ፍሬው ቀደም ብሎ መውደቅ",
+        "ምርት መቀነስ"
+      ]
+    },
+    "treatments": [
+      {
+        "chemicalId": "mkwurzssf2zi064sp36",
+        "chemicalName": "Copper Oxychloride",
+        "dosage": "3 kg/ha",
+        "applicationMethod": "Foliar spray"
+      }
+    ],
+    "createdAt": "2026-01-27T17:11:09.086Z",
+    "updatedAt": "2026-01-27T17:11:09.086Z"
+  },
+  {
+    "id": "mkwz3i6fobka0uacc48",
+    "name": {
+      "en": "Late Blight",
+      "om": "Dhukkuba Booda",
+      "am": "የዘገየ በሽታ"
+    },
+    "cropType": "Potato",
+    "categoryId": "mkwz3i63b5pcnbezi4q",
+    "featured": true,
+    "images": [
+      "https://example.com/late-blight.jpg"
+    ],
+    "symptoms": {
+      "en": [
+        "Dark spots on leaves",
+        "White fuzzy growth on leaf undersides",
+        "Brown lesions on stems"
+      ],
+      "om": [
+        "Bakka gurraacha baala irratti",
+        "Guddina adii baala jalatti",
+        "Madaa magariisa hidda irratti"
+      ],
+      "am": [
+        "በቅጠሎች ላይ ጥቁር ነጠብጣቦች",
+        "በቅጠል ስር ነጭ ፈንገስ",
+        "በግንድ ላይ ቡናማ ቁስሎች"
+      ]
+    },
+    "treatments": [
+      {
+        "chemicalId": "mkwz3i6bbcu7zyjem69",
+        "chemicalName": "Ridomil Gold MZ",
+        "dosage": "2.5 kg/ha",
+        "applicationMethod": "Foliar spray"
+      }
+    ],
+    "createdAt": "2026-01-27T19:12:04.551Z",
+    "updatedAt": "2026-01-27T19:12:04.551Z"
+  },
+  {
+    "id": "mkwz3i6h6fr0vd6zb7g",
+    "name": {
+      "en": "Coffee Berry Disease",
+      "om": "Dhukkuba Buna",
+      "am": "የቡና ፍሬ በሽታ"
+    },
+    "cropType": "Coffee",
+    "categoryId": "mkwz3i63b5pcnbezi4q",
+    "featured": true,
+    "images": [
+      "https://example.com/coffee-berry-disease.jpg"
+    ],
+    "symptoms": {
+      "en": [
+        "Dark sunken spots on berries",
+        "Premature fruit drop",
+        "Reduced yield"
+      ],
+      "om": [
+        "Bakka gurraacha ija buna irratti",
+        "Iji buna dafee bu'uu",
+        "Oomisha hir'achuu"
+      ],
+      "am": [
+        "በቡና ፍሬ ላይ ጥቁር ጉድጓዶች",
+        "ፍሬው ቀደም ብሎ መውደቅ",
+        "ምርት መቀነስ"
+      ]
+    },
+    "treatments": [
+      {
+        "chemicalId": "mkwz3i6cb4d0b0sllvl",
+        "chemicalName": "Copper Oxychloride",
+        "dosage": "3 kg/ha",
+        "applicationMethod": "Foliar spray"
+      }
+    ],
+    "createdAt": "2026-01-27T19:12:04.553Z",
+    "updatedAt": "2026-01-27T19:12:04.553Z"
+  }
+]

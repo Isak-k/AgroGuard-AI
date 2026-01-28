@@ -1,0 +1,309 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AgroGuard AI Design System - Agricultural, Farmer-Friendly */
+
+@layer base {
+  :root {
+    /* Core Background - Clean white with slight warmth */
+    --background: 45 20% 98%;
+    --foreground: 150 30% 15%;
+
+    /* Card surfaces */
+    --card: 0 0% 100%;
+    --card-foreground: 150 30% 15%;
+
+    /* Popover/Dropdown */
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 30% 15%;
+
+    /* Primary - Agricultural Green */
+    --primary: 142 55% 38%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Primary variants */
+    --primary-light: 142 50% 55%;
+    --primary-dark: 142 60% 28%;
+    --primary-muted: 142 30% 90%;
+
+    /* Secondary - Earth/Terracotta */
+    --secondary: 25 70% 50%;
+    --secondary-foreground: 0 0% 100%;
+    
+    /* Accent - Warm Gold (Ethiopian inspired) */
+    --accent: 45 90% 55%;
+    --accent-foreground: 150 30% 15%;
+
+    /* Muted surfaces */
+    --muted: 45 15% 94%;
+    --muted-foreground: 150 20% 40%;
+
+    /* States */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --success: 142 70% 45%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 150 30% 15%;
+
+    /* Borders & Inputs */
+    --border: 142 20% 85%;
+    --input: 142 20% 85%;
+    --ring: 142 55% 38%;
+
+    --radius: 1rem;
+
+    /* Sidebar */
+    --sidebar-background: 142 30% 95%;
+    --sidebar-foreground: 150 30% 15%;
+    --sidebar-primary: 142 55% 38%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 142 25% 90%;
+    --sidebar-accent-foreground: 150 30% 15%;
+    --sidebar-border: 142 20% 85%;
+    --sidebar-ring: 142 55% 38%;
+
+    /* Custom gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(142 55% 38%), hsl(142 60% 28%));
+    --gradient-hero: linear-gradient(180deg, hsl(142 30% 95%) 0%, hsl(45 20% 98%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(142 20% 98%));
+    --gradient-accent: linear-gradient(135deg, hsl(25 70% 50%), hsl(25 80% 40%));
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(150 30% 15% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(150 30% 15% / 0.1), 0 2px 4px -2px hsl(150 30% 15% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(150 30% 15% / 0.1), 0 4px 6px -4px hsl(150 30% 15% / 0.1);
+    --shadow-xl: 0 20px 25px -5px hsl(150 30% 15% / 0.1), 0 8px 10px -6px hsl(150 30% 15% / 0.1);
+    --shadow-glow: 0 0 20px hsl(142 55% 38% / 0.3);
+  }
+
+  .dark {
+    --background: 150 25% 8%;
+    --foreground: 45 20% 95%;
+
+    --card: 150 20% 12%;
+    --card-foreground: 45 20% 95%;
+
+    --popover: 150 20% 12%;
+    --popover-foreground: 45 20% 95%;
+
+    --primary: 142 55% 45%;
+    --primary-foreground: 150 30% 8%;
+    
+    --primary-light: 142 50% 60%;
+    --primary-dark: 142 60% 35%;
+    --primary-muted: 142 25% 20%;
+
+    --secondary: 25 65% 55%;
+    --secondary-foreground: 0 0% 100%;
+
+    --accent: 45 85% 60%;
+    --accent-foreground: 150 30% 10%;
+
+    --muted: 150 15% 18%;
+    --muted-foreground: 45 15% 65%;
+
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 150 15% 25%;
+    --input: 150 15% 25%;
+    --ring: 142 55% 45%;
+
+    --sidebar-background: 150 20% 10%;
+    --sidebar-foreground: 45 20% 95%;
+    --sidebar-primary: 142 55% 45%;
+    --sidebar-primary-foreground: 150 30% 8%;
+    --sidebar-accent: 150 15% 18%;
+    --sidebar-accent-foreground: 45 20% 95%;
+    --sidebar-border: 150 15% 25%;
+    --sidebar-ring: 142 55% 45%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(142 55% 45%), hsl(142 60% 35%));
+    --gradient-hero: linear-gradient(180deg, hsl(150 20% 10%) 0%, hsl(150 25% 8%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(150 20% 14%), hsl(150 20% 12%));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Mobile-first large touch targets */
+  button, a, input, select, textarea {
+    @apply touch-manipulation;
+  }
+}
+
+@layer components {
+  /* Large farmer-friendly buttons */
+  .btn-farmer {
+    @apply min-h-[56px] px-6 text-lg font-semibold rounded-2xl transition-all duration-200;
+    @apply active:scale-[0.98] touch-manipulation;
+  }
+
+  .btn-farmer-primary {
+    @apply btn-farmer bg-primary text-primary-foreground;
+    @apply hover:bg-primary/90 active:bg-primary/80;
+    box-shadow: var(--shadow-md), var(--shadow-glow);
+  }
+
+  .btn-farmer-secondary {
+    @apply btn-farmer bg-secondary text-secondary-foreground;
+    @apply hover:bg-secondary/90 active:bg-secondary/80;
+  }
+
+  .btn-farmer-outline {
+    @apply btn-farmer bg-transparent border-2 border-primary text-primary;
+    @apply hover:bg-primary/10 active:bg-primary/20;
+  }
+
+  /* Icon button for navigation */
+  .btn-icon-large {
+    @apply w-16 h-16 rounded-2xl flex items-center justify-center;
+    @apply transition-all duration-200 active:scale-95;
+  }
+
+  /* Card styles for disease/chemical items */
+  .card-farmer {
+    @apply bg-card rounded-2xl p-4 border border-border;
+    box-shadow: var(--shadow-md);
+    background: var(--gradient-card);
+  }
+
+  .card-farmer-interactive {
+    @apply card-farmer cursor-pointer transition-all duration-200;
+    @apply hover:shadow-lg active:scale-[0.99];
+  }
+
+  /* Navigation bar */
+  .nav-farmer {
+    @apply fixed bottom-0 left-0 right-0 bg-card border-t border-border;
+    @apply flex justify-around items-center h-20 px-4;
+    box-shadow: 0 -4px 20px hsl(150 30% 15% / 0.1);
+  }
+
+  /* Hero section */
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  /* Status badges */
+  .badge-status {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .badge-success {
+    @apply badge-status bg-success/20 text-success;
+  }
+
+  .badge-warning {
+    @apply badge-status bg-warning/20 text-warning;
+  }
+
+  .badge-info {
+    @apply badge-status bg-primary/20 text-primary;
+  }
+
+  .badge-danger {
+    @apply badge-status bg-destructive/20 text-destructive;
+  }
+
+  /* Form inputs - larger for farmers */
+  .input-farmer {
+    @apply min-h-[56px] px-4 text-lg rounded-xl border-2 border-input;
+    @apply bg-background focus:border-primary focus:ring-2 focus:ring-primary/20;
+    @apply transition-all duration-200;
+  }
+
+  /* Language/Location selector cards */
+  .selector-card {
+    @apply flex items-center gap-4 p-4 rounded-2xl border-2 border-border;
+    @apply cursor-pointer transition-all duration-200;
+    @apply hover:border-primary/50 active:scale-[0.98];
+  }
+
+  .selector-card-active {
+    @apply selector-card border-primary bg-primary/10;
+  }
+
+  /* Scan button (camera) */
+  .scan-button {
+    @apply w-20 h-20 rounded-full bg-primary text-primary-foreground;
+    @apply flex items-center justify-center shadow-xl;
+    @apply transition-all duration-200 active:scale-95;
+    box-shadow: var(--shadow-xl), var(--shadow-glow);
+  }
+
+  /* Admin sidebar */
+  .admin-sidebar {
+    @apply bg-sidebar h-full border-r border-sidebar-border;
+  }
+
+  /* Loading spinner */
+  .spinner-farmer {
+    @apply w-10 h-10 border-4 border-primary/30 border-t-primary rounded-full;
+    animation: spin 1s linear infinite;
+  }
+
+  /* Page container with safe areas */
+  .page-container {
+    @apply min-h-screen pb-24 px-4 pt-4;
+  }
+
+  /* Section header */
+  .section-header {
+    @apply text-xl font-bold text-foreground mb-4;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Safe area insets for PWA */
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Smooth scroll */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* PWA Status bar styling */
+@media (display-mode: standalone) {
+  body {
+    @apply safe-top;
+  }
+}

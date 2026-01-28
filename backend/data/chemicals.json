@@ -1,0 +1,170 @@
+[
+  {
+    "id": "mkwp3obmzfi7so3gtkq",
+    "name": "Ridomil Gold MZ",
+    "type": "Fungicide",
+    "activeIngredient": "Metalaxyl-M + Mancozeb",
+    "dosage": "2.5 kg/ha",
+    "safetyInstructions": {
+      "en": "Wear protective clothing. Do not spray during windy conditions. Keep away from water sources.",
+      "om": "Uffata eegumsa uffadhu. Qilleensa cimaa keessatti hin faffacaasin. Madda bishaanii irraa fageeessi.",
+      "am": "መከላከያ ልብስ ይልበሱ። በነፋስ ጊዜ አይርጩ። ከውሃ ምንጮች ያርቁ።"
+    },
+    "createdAt": "2026-01-27T14:32:16.354Z",
+    "updatedAt": "2026-01-27T14:32:16.354Z"
+  },
+  {
+    "id": "mkwp3obn10y7jrzbkhlm",
+    "name": "Copper Oxychloride",
+    "type": "Fungicide",
+    "activeIngredient": "Copper Oxychloride 50% WP",
+    "dosage": "3 kg/ha",
+    "safetyInstructions": {
+      "en": "Use protective equipment. Avoid contact with skin and eyes. Store in cool, dry place.",
+      "om": "Meeshaalee eegumsa fayyadami. Gogaa fi ija waliin wal qunnamtii dhowwi. Iddoo qabbanaawaa fi gogaa keessatti kuusi.",
+      "am": "መከላከያ መሳሪያዎችን ይጠቀሙ። ከቆዳ እና ከዓይን ጋር መገናኘትን ያስወግዱ። በቀዝቃዛ እና ደረቅ ቦታ ያስቀምጡ።"
+    },
+    "createdAt": "2026-01-27T14:32:16.355Z",
+    "updatedAt": "2026-01-27T14:32:16.355Z"
+  },
+  {
+    "id": "mkwp3obozkupnsc6g0k",
+    "name": "Dimethoate",
+    "type": "Insecticide",
+    "activeIngredient": "Dimethoate 40% EC",
+    "dosage": "1.5 L/ha",
+    "safetyInstructions": {
+      "en": "Highly toxic. Use full protective equipment. Do not eat, drink or smoke during application.",
+      "om": "Summii cimaa qaba. Meeshaalee eegumsa guutuu fayyadami. Yeroo fayyadamtu nyaachuu, dhuguu ykn tamboo hin xuuxin.",
+      "am": "በጣም መርዛማ ነው። ሙሉ መከላከያ መሳሪያ ይጠቀሙ። በመርጨት ጊዜ አይብሉ፣ አይጠጡ ወይም አያጨሱ።"
+    },
+    "createdAt": "2026-01-27T14:32:16.356Z",
+    "updatedAt": "2026-01-27T14:32:16.356Z"
+  },
+  {
+    "id": "mkwpy23je9bw30deavl",
+    "name": "Ridomil Gold MZ",
+    "type": "Fungicide",
+    "activeIngredient": "Metalaxyl-M + Mancozeb",
+    "dosage": "2.5 kg/ha",
+    "safetyInstructions": {
+      "en": "Wear protective clothing. Do not spray during windy conditions. Keep away from water sources.",
+      "om": "Uffata eegumsa uffadhu. Qilleensa cimaa keessatti hin faffacaasin. Madda bishaanii irraa fageeessi.",
+      "am": "መከላከያ ልብስ ይልበሱ። በነፋስ ጊዜ አይርጩ። ከውሃ ምንጮች ያርቁ።"
+    },
+    "createdAt": "2026-01-27T14:55:53.887Z",
+    "updatedAt": "2026-01-27T14:55:53.887Z"
+  },
+  {
+    "id": "mkwpy23lgfgmbu8igwb",
+    "name": "Copper Oxychloride",
+    "type": "Fungicide",
+    "activeIngredient": "Copper Oxychloride 50% WP",
+    "dosage": "3 kg/ha",
+    "safetyInstructions": {
+      "en": "Use protective equipment. Avoid contact with skin and eyes. Store in cool, dry place.",
+      "om": "Meeshaalee eegumsa fayyadami. Gogaa fi ija waliin wal qunnamtii dhowwi. Iddoo qabbanaawaa fi gogaa keessatti kuusi.",
+      "am": "መከላከያ መሳሪያዎችን ይጠቀሙ። ከቆዳ እና ከዓይን ጋር መገናኘትን ያስወግዱ። በቀዝቃዛ እና ደረቅ ቦታ ያስቀምጡ።"
+    },
+    "createdAt": "2026-01-27T14:55:53.889Z",
+    "updatedAt": "2026-01-27T14:55:53.889Z"
+  },
+  {
+    "id": "mkwpy23o5riqdsl9dv",
+    "name": "Dimethoate",
+    "type": "Insecticide",
+    "activeIngredient": "Dimethoate 40% EC",
+    "dosage": "1.5 L/ha",
+    "safetyInstructions": {
+      "en": "Highly toxic. Use full protective equipment. Do not eat, drink or smoke during application.",
+      "om": "Summii cimaa qaba. Meeshaalee eegumsa guutuu fayyadami. Yeroo fayyadamtu nyaachuu, dhuguu ykn tamboo hin xuuxin.",
+      "am": "በጣም መርዛማ ነው። ሙሉ መከላከያ መሳሪያ ይጠቀሙ። በመርጨት ጊዜ አይብሉ፣ አይጠጡ ወይም አያጨሱ።"
+    },
+    "createdAt": "2026-01-27T14:55:53.892Z",
+    "updatedAt": "2026-01-27T14:55:53.892Z"
+  },
+  {
+    "id": "mkwurzs8pdvmxq0y9r",
+    "name": "Ridomil Gold MZ",
+    "type": "Fungicide",
+    "activeIngredient": "Metalaxyl-M + Mancozeb",
+    "dosage": "2.5 kg/ha",
+    "safetyInstructions": {
+      "en": "Wear protective clothing. Do not spray during windy conditions. Keep away from water sources.",
+      "om": "Uffata eegumsa uffadhu. Qilleensa cimaa keessatti hin faffacaasin. Madda bishaanii irraa fageeessi.",
+      "am": "መከላከያ ልብስ ይልበሱ። በነፋስ ጊዜ አይርጩ። ከውሃ ምንጮች ያርቁ።"
+    },
+    "createdAt": "2026-01-27T17:11:09.032Z",
+    "updatedAt": "2026-01-27T17:11:09.032Z"
+  },
+  {
+    "id": "mkwurzssf2zi064sp36",
+    "name": "Copper Oxychloride",
+    "type": "Fungicide",
+    "activeIngredient": "Copper Oxychloride 50% WP",
+    "dosage": "3 kg/ha",
+    "safetyInstructions": {
+      "en": "Use protective equipment. Avoid contact with skin and eyes. Store in cool, dry place.",
+      "om": "Meeshaalee eegumsa fayyadami. Gogaa fi ija waliin wal qunnamtii dhowwi. Iddoo qabbanaawaa fi gogaa keessatti kuusi.",
+      "am": "መከላከያ መሳሪያዎችን ይጠቀሙ። ከቆዳ እና ከዓይን ጋር መገናኘትን ያስወግዱ። በቀዝቃዛ እና ደረቅ ቦታ ያስቀምጡ።"
+    },
+    "createdAt": "2026-01-27T17:11:09.052Z",
+    "updatedAt": "2026-01-27T17:11:09.052Z"
+  },
+  {
+    "id": "mkwurzt943lrb5jrmzz",
+    "name": "Dimethoate",
+    "type": "Insecticide",
+    "activeIngredient": "Dimethoate 40% EC",
+    "dosage": "1.5 L/ha",
+    "safetyInstructions": {
+      "en": "Highly toxic. Use full protective equipment. Do not eat, drink or smoke during application.",
+      "om": "Summii cimaa qaba. Meeshaalee eegumsa guutuu fayyadami. Yeroo fayyadamtu nyaachuu, dhuguu ykn tamboo hin xuuxin.",
+      "am": "በጣም መርዛማ ነው። ሙሉ መከላከያ መሳሪያ ይጠቀሙ። በመርጨት ጊዜ አይብሉ፣ አይጠጡ ወይም አያጨሱ።"
+    },
+    "createdAt": "2026-01-27T17:11:09.069Z",
+    "updatedAt": "2026-01-27T17:11:09.069Z"
+  },
+  {
+    "id": "mkwz3i6bbcu7zyjem69",
+    "name": "Ridomil Gold MZ",
+    "type": "Fungicide",
+    "activeIngredient": "Metalaxyl-M + Mancozeb",
+    "dosage": "2.5 kg/ha",
+    "safetyInstructions": {
+      "en": "Wear protective clothing. Do not spray during windy conditions. Keep away from water sources.",
+      "om": "Uffata eegumsa uffadhu. Qilleensa cimaa keessatti hin faffacaasin. Madda bishaanii irraa fageeessi.",
+      "am": "መከላከያ ልብስ ይልበሱ። በነፋስ ጊዜ አይርጩ። ከውሃ ምንጮች ያርቁ።"
+    },
+    "createdAt": "2026-01-27T19:12:04.547Z",
+    "updatedAt": "2026-01-27T19:12:04.547Z"
+  },
+  {
+    "id": "mkwz3i6cb4d0b0sllvl",
+    "name": "Copper Oxychloride",
+    "type": "Fungicide",
+    "activeIngredient": "Copper Oxychloride 50% WP",
+    "dosage": "3 kg/ha",
+    "safetyInstructions": {
+      "en": "Use protective equipment. Avoid contact with skin and eyes. Store in cool, dry place.",
+      "om": "Meeshaalee eegumsa fayyadami. Gogaa fi ija waliin wal qunnamtii dhowwi. Iddoo qabbanaawaa fi gogaa keessatti kuusi.",
+      "am": "መከላከያ መሳሪያዎችን ይጠቀሙ። ከቆዳ እና ከዓይን ጋር መገናኘትን ያስወግዱ። በቀዝቃዛ እና ደረቅ ቦታ ያስቀምጡ።"
+    },
+    "createdAt": "2026-01-27T19:12:04.548Z",
+    "updatedAt": "2026-01-27T19:12:04.548Z"
+  },
+  {
+    "id": "mkwz3i6d2sfa03b3p6h",
+    "name": "Dimethoate",
+    "type": "Insecticide",
+    "activeIngredient": "Dimethoate 40% EC",
+    "dosage": "1.5 L/ha",
+    "safetyInstructions": {
+      "en": "Highly toxic. Use full protective equipment. Do not eat, drink or smoke during application.",
+      "om": "Summii cimaa qaba. Meeshaalee eegumsa guutuu fayyadami. Yeroo fayyadamtu nyaachuu, dhuguu ykn tamboo hin xuuxin.",
+      "am": "በጣም መርዛማ ነው። ሙሉ መከላከያ መሳሪያ ይጠቀሙ። በመርጨት ጊዜ አይብሉ፣ አይጠጡ ወይም አያጨሱ።"
+    },
+    "createdAt": "2026-01-27T19:12:04.549Z",
+    "updatedAt": "2026-01-27T19:12:04.549Z"
+  }
+]
