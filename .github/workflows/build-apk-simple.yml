@@ -1,0 +1,82 @@
+name: Build APK Simple
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Build web app
+      run: npm run build
+      
+    - name: Setup Java JDK
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+        
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
+      
+    - name: Install Ionic and Capacitor
+      run: |
+        npm install -g @ionic/cli @capacitor/cli
+        
+    - name: Create fresh Android project
+      run: |
+        # Remove any existing android folder
+        rm -rf android
+        
+        # Add Android platform
+        npx cap add android
+        
+        # Sync web assets
+        npx cap sync android
+        
+    - name: Verify Android project structure
+      run: |
+        echo "Checking Android project structure..."
+        ls -la android/
+        echo "Checking for gradlew..."
+        ls -la android/gradlew || echo "gradlew not found"
+        echo "Checking gradle wrapper directory..."
+        ls -la android/gradle/wrapper/ || echo "gradle wrapper directory not found"
+        
+    - name: Create gradle wrapper if missing
+      run: |
+        cd android
+        if [ ! -f "gradlew" ]; then
+          echo "Creating gradle wrapper..."
+          # Download gradle and create wrapper
+          curl -L https://services.gradle.org/distributions/gradle-8.0-bin.zip -o gradle.zip
+          unzip -q gradle.zip
+          ./gradle-8.0/bin/gradle wrapper --gradle-version 8.0
+          rm -rf gradle-8.0 gradle.zip
+        fi
+        chmod +x gradlew
+        echo "Gradle wrapper setup complete"
+        ls -la gradlew gradle/wrapper/
+        
+    - name: Build APK
+      run: |
+        cd android
+        ./gradlew clean assembleDebug --no-daemon
+        
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: agroguard-ai-simple-apk
+        path: android/app/build/outputs/apk/debug/app-debug.apk

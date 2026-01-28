@@ -44,34 +44,56 @@ jobs:
     - name: Install Capacitor CLI
       run: npm install -g @capacitor/cli
       
-    - name: Check if Android platform exists
+    - name: Remove existing Android platform (if exists)
       run: |
-        if [ ! -d "android" ]; then
-          echo "Android platform not found, adding it..."
-          npx cap add android
-        else
-          echo "Android platform exists"
+        if [ -d "android" ]; then
+          echo "Removing existing Android platform..."
+          rm -rf android
         fi
         
-    - name: Sync Capacitor
-      run: npx cap sync android
-      
-    - name: Check gradlew file
+    - name: Add Android platform
       run: |
-        if [ ! -f "android/gradlew" ]; then
-          echo "gradlew not found, creating it..."
-          cd android
-          gradle wrapper
-          chmod +x gradlew
-        else
-          echo "gradlew exists, making it executable..."
-          chmod +x android/gradlew
-        fi
+        echo "Adding fresh Android platform..."
+        npx cap add android
+        
+    - name: Sync Capacitor
+      run: |
+        echo "Syncing Capacitor..."
+        npx cap sync android
+        
+    - name: Create Gradle Wrapper
+      run: |
+        cd android
+        echo "Creating gradle wrapper..."
+        
+        # Download and setup gradle temporarily to create wrapper
+        curl -L https://services.gradle.org/distributions/gradle-8.0-bin.zip -o gradle.zip
+        unzip -q gradle.zip
+        
+        # Use gradle to create wrapper
+        ./gradle-8.0/bin/gradle wrapper --gradle-version 8.0
+        
+        # Clean up temporary gradle
+        rm -rf gradle-8.0 gradle.zip
+        
+        # Make gradlew executable
+        chmod +x gradlew
+        
+        echo "Gradle wrapper created successfully"
+        ls -la gradlew gradle/wrapper/
+        
+    - name: List android directory contents
+      run: |
+        echo "Android directory contents:"
+        ls -la android/
+        echo "Gradlew file check:"
+        ls -la android/gradlew || echo "gradlew not found"
         
     - name: Build APK
       run: |
         cd android
-        ./gradlew assembleDebug --no-daemon --stacktrace
+        echo "Building APK..."
+        ./gradlew assembleDebug --no-daemon --stacktrace --info
         
     - name: Upload APK artifact
       uses: actions/upload-artifact@v4
